@@ -1,16 +1,13 @@
-package first.customerManagement.dto.request;
+package first.customerManagement.dto.response;
 
 import jakarta.persistence.Column;
 import lombok.Data;
 
 @Data
-public class CustomerSaveDto {
+public class GetCustomerByNameDto {
+    private String customerName;
 
     private Long identityNumber;
 
-    private String customerName;
-
     private String customerAddress;
-
-
 }

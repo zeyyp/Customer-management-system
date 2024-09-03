@@ -22,4 +22,7 @@ public class Customer {
     @Column
     private String customerName;
 
+    @Column
+    private String customerAddress;
+
 }
